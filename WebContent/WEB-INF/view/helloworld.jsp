@@ -3,7 +3,7 @@
 <html>
 
 <head>
-  <title>Hello wold</title>
+  <title>Hello world</title>
 </head>
 
 <body>
@@ -11,7 +11,7 @@
  
  <br /> <br />
  
- Student name:  ${param.studentName};
+ Message:  <b>${message}</b>
  
 </body>
 </html>
