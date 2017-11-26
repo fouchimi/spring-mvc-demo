@@ -15,14 +15,13 @@
  <br /> <br />
  Last Name : <form:input path="lastName" />
  <br /> <br />
- Country : <form:select path="country">
+ Country : 
+ <form:select path="country">
  
-     <form:option value="Brazil" label="Brazil" />
-     <form:option value="France" label="France" />
-     <form:option value="United States" label="United States" />
-     <form:option value="Cameroon" label="Cameroon" />
+     <form:options items="${student.countryOptions}" />
      
  </form:select>
+ <br /><br />
  
  <input type="submit" value="Submit" />
  
