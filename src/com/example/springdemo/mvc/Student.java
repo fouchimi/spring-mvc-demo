@@ -6,6 +6,7 @@ public class Student {
 	private String lastName;
 	private String country;
 	private String favoriteLanguage;
+	private String[] operatingSystems;
 	
 	public Student() {
 	
@@ -41,5 +42,13 @@ public class Student {
 
 	public String getFavoriteLanguage() {
 		return favoriteLanguage;
+	}
+	
+	public void setOperatingSystems(String[] operatingSystems) {
+		this.operatingSystems = operatingSystems;
+	}
+	
+	public String[] getOperatingSystems() {
+		return operatingSystems;
 	}
 }
