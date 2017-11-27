@@ -10,6 +10,7 @@
 
 <body>
   Customer Name : <b>${customer.firstName} ${customer.lastName}</b><br /><br />
-  Customer free passes: <b>${customer.freePasses}</b>
+  Customer free passes: <b>${customer.freePasses}</b><br /><br />
+  Customer postal code: <b>${customer.postalCode}</b>
 </body>
 </html>
