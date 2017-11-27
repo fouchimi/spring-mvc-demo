@@ -11,13 +11,16 @@
  </head>
  
  <body>
- <i>Fill out the form. Asterisk(*) means is required</i>
+ <i>Fill out the form. Asterisk(*) means is required</i> <br/> <br/>
     <form:form action="processForm" modelAttribute="customer">
         First Name : <form:input path="firstName"/>
         <br /> <br />
         Last Name(*) : <form:input path="lastName"/>
         <form:errors path="lastName" cssClass="error" />
         <br /><br />
+        Free Passes : <form:input path="freePasses" />
+        <form:errors path="freePasses" cssClass="error" />
+        <br/><br/>
         <input type="submit" value="Submit" />
     </form:form>
  </body>

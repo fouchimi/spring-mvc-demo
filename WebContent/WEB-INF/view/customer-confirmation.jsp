@@ -9,6 +9,7 @@
 </head>
 
 <body>
-  Customer Name : <b>${customer.firstName} ${customer.lastName}</b>
+  Customer Name : <b>${customer.firstName} ${customer.lastName}</b><br /><br />
+  Customer free passes: <b>${customer.freePasses}</b>
 </body>
 </html>
