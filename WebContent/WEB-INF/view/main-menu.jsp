@@ -11,6 +11,7 @@
    
    <br /> <br /><a href="hello/showForm">Go to showForm page</a>
    <br /> <br /><a href="student/showForm">Go to student form</a>
+   <br /> <br /><a href="customer/showForm">Go to customer form</a>
    
 </body>
 </html>
