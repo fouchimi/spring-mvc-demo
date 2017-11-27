@@ -12,5 +12,6 @@
   Customer Name : <b>${customer.firstName} ${customer.lastName}</b><br /><br />
   Customer free passes: <b>${customer.freePasses}</b><br /><br />
   Customer postal code: <b>${customer.postalCode}</b>
+  Customer course code: <b>${customer.courseCode}</b>
 </body>
 </html>
